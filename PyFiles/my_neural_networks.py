@@ -12,6 +12,20 @@ from tensorflow.keras.layers import *
 from tensorflow.keras import Sequential
 
 
+######## TODO ################################################
+
+
+def test_evaluation(X_test, y_test, model, model_directory):
+    if model is None:
+        if model_directory is None:
+            model = load_model(model_directory)
+
+    return None
+
+
+##############################################################
+
+
 class dense_neural_network:
     def __init__(
         self,
